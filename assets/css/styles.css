@@ -1,0 +1,50 @@
+:root {
+    --light: #ffffff;
+    --lighttext: #000000;
+    --dark: #000000;
+    --darktext: #ffffff;
+}
+
+h1 {
+    font-size: 50px;
+}
+  
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--light);
+    color: var(--lighttext);
+}
+  
+body#dark {
+    background-color: var(--dark);
+    color: var(--darktext);
+}
+  
+
+a {
+    color: #ce0a83;
+}
+
+button{
+    padding: 10px 10px;
+    background-color: #2745ba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1638c4;
+}
+
+button:active {
+    background-color: #2745ba;
+}
+
+footer {
+    padding: 11px;
+    text-align: center;
+    margin-top: auto;
+    
+}
